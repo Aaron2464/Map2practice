@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "134553022972",
+    "firebase_url": "https://map2-afa70.firebaseio.com",
+    "project_id": "map2-afa70",
+    "storage_bucket": "map2-afa70.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134553022972:android:52e6c2af41a9160a",
+        "android_client_info": {
+          "package_name": "com.example.aaron.map2practice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "134553022972-l4gak9es6oittgbvkudlk1gho05io9it.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aaron.map2practice",
+            "certificate_hash": "1cad61418644638ee09d00d599de2ed2ac6578c6"
+          }
+        },
+        {
+          "client_id": "134553022972-223gtaouv4a68knl5obhfd3p2mm4qroc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxHtpu8V-tzL9ufnPROkDiAiLiFws9Bvg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "134553022972-223gtaouv4a68knl5obhfd3p2mm4qroc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
