@@ -107,7 +107,8 @@ GoogleApiClient.OnConnectionFailedListener,
                     ,REQUEST_LOCATION);
         }
         else{
-            if(checkPlayServices()){
+            if(checkPlayServices())
+            {
                 buildGoogleApiClient();
                 createLocationRequest();
                 displayLocation();
@@ -132,19 +133,21 @@ GoogleApiClient.OnConnectionFailedListener,
                     new GeoFire.CompletionListener(){
                         @Override
                         public void onComplete(String key, DatabaseError error) {
-                            if (mCurrent != null)
+                            if (mCurrent != null) {
                                 mCurrent.remove();
-                            mCurrent = mMap.addMarker(new MarkerOptions()
-                                                .position(new LatLng(latitude,longitude))
-                                                .title("YOU"));
-                            mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(latitude,longitude),12.0f));
+                                mCurrent = mMap.addMarker(new MarkerOptions()
+                                        .position(new LatLng(latitude, longitude))
+                                        .title("YOU"));
+                                mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(latitude, longitude), 12.0f));
+                            }
                         }
                     });
 
             Log.d("EDMTDEV",String.format("Your Location was changed: %f / %f",latitude,longitude));
         }
-        else
+        else{
             Log.d("EDMTDEV","Can not get your location");
+        }
 
     }
 
